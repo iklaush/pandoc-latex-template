@@ -832,6 +832,9 @@ $else$
   \renewcommand{\footrulewidth}{0.4pt}
 }
 \pagestyle{eisvogel-header-footer}
+$endif$
+$endif$
+
 $if(page-background)$
 \backgroundsetup{
 scale=1,
@@ -842,8 +845,6 @@ contents={%
   \includegraphics[width=\paperwidth,height=\paperheight]{$page-background$}
   }%
 }
-$endif$
-$endif$
 $endif$
 
 %%
